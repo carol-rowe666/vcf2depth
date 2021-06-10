@@ -1,14 +1,14 @@
 # vcf2depth
 Uses the vcf output file from ipyrad and return stats on the average depth of alleles.  
 From the vcf file, we have NP and NS:  
-  NS: number of samples with depth of at least 1. 
-  NP: total depth across all samples. 
-Hence, total number of possible samples can differ from the NS value.  
-Output contains stats on: NP/NS and NP/total possible samples. 
+  NS: number of samples with depth of at least 1  
+  NP: total depth across all samples  
+Hence, total number of possible samples can differ from the NS value.   
+Output contains stats on: NP/NS and NP/total possible samples.  
   
 Example output:  
   
-  stat         DP/NS        DP/all   
+  stat&nbsp;&nbsp;         DP/NS&nbsp;&nbsp;        DP/all   
   count&nbsp;&nbsp;  13425.000000&nbsp;&nbsp;  13425.000000  
    mean&nbsp;&nbsp;     45.821321&nbsp;&nbsp;     31.562692  
     std&nbsp;&nbsp;     86.165466&nbsp;&nbsp;     64.912396  
